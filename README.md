@@ -1,1 +1,1 @@
-![Alt text]img\star-schema.jpg?raw=true "Starschema")
+![Alt text](img/star-schema.jpg?raw=true "star schema")
