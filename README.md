@@ -46,7 +46,9 @@ To provide an easy way to access and manipulate the data with simple JOIN statem
 *** For this Project we will host our postgres server on a Docker container, below are instructions on how to run the complete project**
 
 
-To run the project locally follow the steps below:
+To run the project locally clone this repository and then follow the steps below:
+
+```git clone https://github.com/RandyPayano/Sparkify-DataModeling-ETL.git```
 
 <h3>Step 1:</h3>
 
