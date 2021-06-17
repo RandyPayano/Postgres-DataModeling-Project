@@ -7,8 +7,8 @@ They would like to build a Postgres database with tables optimized for song play
 
 As the Data Engineer assigned to this project, I will define fact and dimension tables for a star schema for a specific analytic focus, as well as write an ETL pipeline that uses Python and SQL to transfer data from files in two local directories into these tables in Postgres.
 
-
-Database star schema
+```{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}```
+Star Schema design
 
 ![Alt text](img/star-schema.jpg?raw=true "star schema")
 
