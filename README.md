@@ -9,11 +9,20 @@ As the Data Engineer assigned to this project, I will define fact and dimension 
 
 <h2>Song Dataset</h2>
 
-The first dataset is a subset of real data from the Million Song Dataset. Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
+Song datasets are organized in subdirectories under /data/song data. Here is an example of one of these files:
 
-```song_data/A/B/C/TRABCEI128F424C983.json, song_data/A/A/B/TRAABJL12903CDCF1A.json ```
+ex: song_data/A/B/C/TRABCEI128F424C983.json
 
 ```{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}```
+
+<h2>Log Dataset</h2>
+All json files in the /data/log data directory are nested in subdirectories. A single row from each file is shown below as an example:
+
+```{"artist":"Slipknot","auth":"Logged In","firstName":"Aiden","gender":"M","itemInSession":0,"lastName":"Ramirez","length":192.57424,"level":"paid","location":"New York-Newark-Jersey City, NY-NJ-PA","method":"PUT","page":"NextSong","registration":1540283578796.0,"sessionId":19,"song":"Opium Of The People (Album Version)","status":200,"ts":1541639510796,"userAgent":"\"Mozilla\/5.0 (Windows NT 6.1) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143 Safari\/537.36\"","userId":"20"}```
+
+You could see it as a Panda DataFrame by typing the following line in your Notebook 
+
+```pd.read_json('data/log_data/2018/11/2018-11-01-events.json', lines=True)```
 
 Star Schema design
 
