@@ -23,8 +23,9 @@ All json files in the /data/log data directory are nested in subdirectories. A s
 You could see it as a Panda DataFrame by typing the following line in your Notebook 
 
 ```pd.read_json('data/log_data/2018/11/2018-11-01-events.json', lines=True)```
+![Alt text](img/log-data.png?raw=true "Log data Dataframe")
 
-Star Schema design
+To provide an easy way to access and manipulate the data with simple JOIN statements, I came up with the following Star Schema design. 
 
 ![Alt text](img/star-schema.jpg?raw=true "star schema")
 
@@ -64,13 +65,13 @@ e) create Database student_randy
 The database is now ready to be queried.
 
 
-Step 2:
+<h3>Step 2:</h3>
 
 Create all the tables before inserting data (this will check if the tables already existed, delete, and re-create them)
 
 a) Run create_tables.py
 
-Step 3: 
+<h3>Step 3:</h3> 
 
 Run the Extract, Transform and Load process
 
