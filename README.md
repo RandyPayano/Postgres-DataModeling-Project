@@ -62,7 +62,7 @@ c) ```Docker exec -it randydb-postgres bash```
 
 d) ```psql -U postgres```
 
-e) ```create Database student_randy```
+e) ```Create Database student_randy;```
 
 The database is now ready to be queried.
 
@@ -81,5 +81,8 @@ a) ```Run create_tables.py```
 
 a) ```Run etl.py```
 
+![Alt text](img/processed.jpg?raw=true "Files processed")
 
-<b>Lastly open up test.ipynb in Jupyter Notebook to test our analytical queries! </b>
+<b>Our files have been processed, lastly open up test.ipynb in Jupyter Notebook to test our analytical queries! </b>
+
+![Alt text](img/testing_dataset.jpg?raw=true "Testing our database")
