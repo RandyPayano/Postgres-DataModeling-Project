@@ -8,7 +8,7 @@ They would like to build a Postgres database with tables optimized for song play
 As the Data Engineer assigned to this project, I will define fact and dimension tables for a star schema for a specific analytic focus, as well as write an ETL pipeline that uses Python and SQL to transfer data from files in two local directories into these tables in Postgres.
 
 
-<h1>Database star schema</h1>
+Database star schema
 
 ![Alt text](img/star-schema.jpg?raw=true "star schema")
 
