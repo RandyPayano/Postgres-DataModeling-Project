@@ -9,7 +9,9 @@ As the Data Engineer assigned to this project, I will define fact and dimension 
 
 
 <h1>Database star schema</h1>
+
 ![Alt text](img/star-schema.jpg?raw=true "star schema")
+
 
 <h1>Files in repository</h1>
 
