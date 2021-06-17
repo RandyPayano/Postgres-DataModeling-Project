@@ -50,7 +50,7 @@ To run the project locally follow the steps below:
 
 <h3>Step 1:</h3>
 
-Run a postgres instance on Docker
+<b>Run a postgres instance on Docker</b>
 
 a) ```Docker pull postgres:latest```
 
@@ -64,18 +64,20 @@ e) ```create Database student_randy```
 
 The database is now ready to be queried.
 
+For more details on this process, I have written an article on Medium. 
+https://randypayano.medium.com/running-a-postgres-server-on-docker-da2268acf00f
 
 <h3>Step 2:</h3>
 
-Create all the tables before inserting data (this will check if the tables already existed, delete, and re-create them)
+<b>Create all the tables before inserting data (this will check if the tables already existed, delete, and re-create them)</b>
 
 a) ```Run create_tables.py```
 
 <h3>Step 3:</h3> 
 
-Run the Extract, Transform and Load process
+<b>Run the Extract, Transform and Load process</b>
 
 a) ```Run etl.py```
 
 
-Lastly open up test.ipynb in Jupyter Notebook to test our analytical queries! 
+<b>Lastly open up test.ipynb in Jupyter Notebook to test our analytical queries! </b>
