@@ -8,10 +8,10 @@ They would like to build a Postgres database with tables optimized for song play
 As the Data Engineer assigned to this project, I will define fact and dimension tables for a star schema for a specific analytic focus, as well as write an ETL pipeline that uses Python and SQL to transfer data from files in two local directories into these tables in Postgres.
 
 
-Database star schema:
+<h1>Database star schema</h1>
 ![Alt text](img/star-schema.jpg?raw=true "star schema")
 
-Files in repository:
+<h1>Files in repository</h1>
 
 1) test.ipynb displays the first few rows of each table to let you check your database.
 2) create_tables.py drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
@@ -29,7 +29,7 @@ Files in repository:
 
 To run the project locally follow the steps below:
 
-Step 1:
+<h3>Step 1:</h3>
 
 Run a postgres instance on Docker
 
