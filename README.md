@@ -1,4 +1,4 @@
-<h1>Introduction<h1>
+<h1>Introduction</h1>
 
 Sparkify, a startup, wants to analyze the data they've gathered on songs and user activity on their new music streaming app. The analytics team is particularly interested in learning about the songs that users are listening to. They currently lack an easy way to query their data, which is stored in a directory of JSON logs on user activity on the app,
 in addition to a directory containing JSON metadata on the songs in their app.
